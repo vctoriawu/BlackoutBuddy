@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+target 'Blackout Buddy' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Blackout Buddy
+  pod 'Eureka'  
+
+
+  target 'Blackout BuddyTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Blackout BuddyUITests' do
+    # Pods for testing
+  end
+
+end

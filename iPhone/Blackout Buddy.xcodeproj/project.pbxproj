@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D135DD810228B835B9A22F1 /* Pods_Blackout_Buddy_Blackout_BuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E971EF628F9EF256A56AE73 /* Pods_Blackout_Buddy_Blackout_BuddyUITests.framework */; };
+		9BDF0C06591CDD78A34030D8 /* Pods_Blackout_BuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231E2B3B4AF149A9AB918464 /* Pods_Blackout_BuddyTests.framework */; };
 		B0B695C723E5BBE000AA7064 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B695C623E5BBE000AA7064 /* ThirdViewController.swift */; };
 		B0B695C923E5BC4600AA7064 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B695C823E5BC4600AA7064 /* FourthViewController.swift */; };
 		B0F0A73623E53878005A30F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A73523E53878005A30F4 /* AppDelegate.swift */; };
@@ -18,6 +20,7 @@
 		B0F0A74423E53879005A30F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F0A74223E53879005A30F4 /* LaunchScreen.storyboard */; };
 		B0F0A74F23E53879005A30F4 /* Blackout_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A74E23E53879005A30F4 /* Blackout_BuddyTests.swift */; };
 		B0F0A75A23E53879005A30F4 /* Blackout_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A75923E53879005A30F4 /* Blackout_BuddyUITests.swift */; };
+		DF2A42BEBBDE7717544EB1C4 /* Pods_Blackout_Buddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF3F8D78BEB6A423A96E1B8 /* Pods_Blackout_Buddy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		231E2B3B4AF149A9AB918464 /* Pods_Blackout_BuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blackout_BuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCB3F3E8A9A278037C1333D /* Pods-Blackout Buddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blackout Buddy.release.xcconfig"; path = "Target Support Files/Pods-Blackout Buddy/Pods-Blackout Buddy.release.xcconfig"; sourceTree = "<group>"; };
+		5D4608E9A88AB22865292B27 /* Pods-Blackout Buddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blackout Buddy.debug.xcconfig"; path = "Target Support Files/Pods-Blackout Buddy/Pods-Blackout Buddy.debug.xcconfig"; sourceTree = "<group>"; };
+		6EF3F8D78BEB6A423A96E1B8 /* Pods_Blackout_Buddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blackout_Buddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E971EF628F9EF256A56AE73 /* Pods_Blackout_Buddy_Blackout_BuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blackout_Buddy_Blackout_BuddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FEA314B2BE40234BAA7966 /* Pods-Blackout BuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blackout BuddyTests.debug.xcconfig"; path = "Target Support Files/Pods-Blackout BuddyTests/Pods-Blackout BuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0B695C623E5BBE000AA7064 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		B0B695C823E5BC4600AA7064 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		B0F0A73223E53878005A30F4 /* Blackout Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blackout Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +64,9 @@
 		B0F0A75523E53879005A30F4 /* Blackout BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blackout BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F0A75923E53879005A30F4 /* Blackout_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blackout_BuddyUITests.swift; sourceTree = "<group>"; };
 		B0F0A75B23E53879005A30F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D380290B2949BD61D3A0D640 /* Pods-Blackout Buddy-Blackout BuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blackout Buddy-Blackout BuddyUITests.release.xcconfig"; path = "Target Support Files/Pods-Blackout Buddy-Blackout BuddyUITests/Pods-Blackout Buddy-Blackout BuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D581BAFB66A74EF820D6403B /* Pods-Blackout BuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blackout BuddyTests.release.xcconfig"; path = "Target Support Files/Pods-Blackout BuddyTests/Pods-Blackout BuddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFE716ABACDDFC6E19BFDB59 /* Pods-Blackout Buddy-Blackout BuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blackout Buddy-Blackout BuddyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Blackout Buddy-Blackout BuddyUITests/Pods-Blackout Buddy-Blackout BuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF2A42BEBBDE7717544EB1C4 /* Pods_Blackout_Buddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDF0C06591CDD78A34030D8 /* Pods_Blackout_BuddyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D135DD810228B835B9A22F1 /* Pods_Blackout_Buddy_Blackout_BuddyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4821020A52AE726F9AFFDCF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EF3F8D78BEB6A423A96E1B8 /* Pods_Blackout_Buddy.framework */,
+				7E971EF628F9EF256A56AE73 /* Pods_Blackout_Buddy_Blackout_BuddyUITests.framework */,
+				231E2B3B4AF149A9AB918464 /* Pods_Blackout_BuddyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		69CF150523E5C41B00D44F8A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +132,20 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		7C79333E36421BF4674DF9C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D4608E9A88AB22865292B27 /* Pods-Blackout Buddy.debug.xcconfig */,
+				5BCB3F3E8A9A278037C1333D /* Pods-Blackout Buddy.release.xcconfig */,
+				FFE716ABACDDFC6E19BFDB59 /* Pods-Blackout Buddy-Blackout BuddyUITests.debug.xcconfig */,
+				D380290B2949BD61D3A0D640 /* Pods-Blackout Buddy-Blackout BuddyUITests.release.xcconfig */,
+				A4FEA314B2BE40234BAA7966 /* Pods-Blackout BuddyTests.debug.xcconfig */,
+				D581BAFB66A74EF820D6403B /* Pods-Blackout BuddyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B0F0A72923E53878005A30F4 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +153,8 @@
 				B0F0A74D23E53879005A30F4 /* Blackout BuddyTests */,
 				B0F0A75823E53879005A30F4 /* Blackout BuddyUITests */,
 				B0F0A73323E53878005A30F4 /* Products */,
+				7C79333E36421BF4674DF9C8 /* Pods */,
+				4821020A52AE726F9AFFDCF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0F0A75E23E53879005A30F4 /* Build configuration list for PBXNativeTarget "Blackout Buddy" */;
 			buildPhases = (
+				1AC0FDF4072BEFDD04EF65A9 /* [CP] Check Pods Manifest.lock */,
 				B0F0A72E23E53878005A30F4 /* Sources */,
 				B0F0A72F23E53878005A30F4 /* Frameworks */,
 				B0F0A73023E53878005A30F4 /* Resources */,
+				F2DA148F0120C5C877D2D340 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0F0A76123E53879005A30F4 /* Build configuration list for PBXNativeTarget "Blackout BuddyTests" */;
 			buildPhases = (
+				201F39290B25B43F4A5278C7 /* [CP] Check Pods Manifest.lock */,
 				B0F0A74623E53879005A30F4 /* Sources */,
 				B0F0A74723E53879005A30F4 /* Frameworks */,
 				B0F0A74823E53879005A30F4 /* Resources */,
@@ -203,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0F0A76423E53879005A30F4 /* Build configuration list for PBXNativeTarget "Blackout BuddyUITests" */;
 			buildPhases = (
+				25741A3B9AF816FA587B667D /* [CP] Check Pods Manifest.lock */,
 				B0F0A75123E53879005A30F4 /* Sources */,
 				B0F0A75223E53879005A30F4 /* Frameworks */,
 				B0F0A75323E53879005A30F4 /* Resources */,
+				1130972229138BC78183CACB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -286,6 +332,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1130972229138BC78183CACB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Blackout Buddy-Blackout BuddyUITests/Pods-Blackout Buddy-Blackout BuddyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Blackout Buddy-Blackout BuddyUITests/Pods-Blackout Buddy-Blackout BuddyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Blackout Buddy-Blackout BuddyUITests/Pods-Blackout Buddy-Blackout BuddyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AC0FDF4072BEFDD04EF65A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blackout Buddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		201F39290B25B43F4A5278C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blackout BuddyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25741A3B9AF816FA587B667D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blackout Buddy-Blackout BuddyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2DA148F0120C5C877D2D340 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Blackout Buddy/Pods-Blackout Buddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Blackout Buddy/Pods-Blackout Buddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Blackout Buddy/Pods-Blackout Buddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0F0A72E23E53878005A30F4 /* Sources */ = {
@@ -468,6 +617,7 @@
 		};
 		B0F0A75F23E53879005A30F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4608E9A88AB22865292B27 /* Pods-Blackout Buddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -487,6 +637,7 @@
 		};
 		B0F0A76023E53879005A30F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BCB3F3E8A9A278037C1333D /* Pods-Blackout Buddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -506,6 +657,7 @@
 		};
 		B0F0A76223E53879005A30F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4FEA314B2BE40234BAA7966 /* Pods-Blackout BuddyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +679,7 @@
 		};
 		B0F0A76323E53879005A30F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D581BAFB66A74EF820D6403B /* Pods-Blackout BuddyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -548,6 +701,7 @@
 		};
 		B0F0A76523E53879005A30F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE716ABACDDFC6E19BFDB59 /* Pods-Blackout Buddy-Blackout BuddyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +721,7 @@
 		};
 		B0F0A76623E53879005A30F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D380290B2949BD61D3A0D640 /* Pods-Blackout Buddy-Blackout BuddyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

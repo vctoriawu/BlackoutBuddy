@@ -1,0 +1,6 @@
+framework module Pods_Blackout_BuddyTests {
+  umbrella header "Pods-Blackout BuddyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

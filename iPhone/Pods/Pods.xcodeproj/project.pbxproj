@@ -1,0 +1,1230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E1380B9DAEF7517AD42713A8CB716E /* ButtonRowWithPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A5E3592000CE6350AA716A63D94C8 /* ButtonRowWithPresent.swift */; };
+		052CDA13B29437A2FDCD9D19230AD39F /* FieldsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F420220C3C52137E7F4EA38FB8F8B4CA /* FieldsRow.swift */; };
+		05C88AAB95E98E3296996797706F19AF /* RuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948A9C107498A3E99B321A83B44BFCA /* RuleRequired.swift */; };
+		07572F1826C958646848D4EF5DBF377E /* RuleRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B51E5DE269A0D4629B167142904D59 /* RuleRange.swift */; };
+		0D7339D0D404F9C394637DDFE383A7A8 /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A935ADDF4D28F085FEB78F5A238E0F /* DecimalFormatter.swift */; };
+		119C3D64BDFECAB92F4FFCEF9B4F135D /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE3D7748B588EC47313454CF092AB8 /* CheckRow.swift */; };
+		1BB933C505E10805A9E179E3DD2CA17E /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5E2B193BFEE5E66AE48A33C7E690A /* BaseRow.swift */; };
+		2129DDD8E49F482CC5EDC01B7020462B /* Pods-Blackout Buddy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CDBE8F6FA88CCBFD9B67ADEFB8817B /* Pods-Blackout Buddy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27A3F7981DF0B5CFCB2E56AABBEAA319 /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7B73E491A113416A8EBDA3FA0F770D /* FieldRow.swift */; };
+		2D144E1543B0B44E364EFEC4E6CFE8D5 /* RuleRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0042E4330AB8C60AA8C11CB8EB12D0 /* RuleRegExp.swift */; };
+		2E5AD5FC9F45A7F38F5F5BC6FF7570E9 /* RuleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE70DD44E0C9FB9B588E396B0A61E7F /* RuleClosure.swift */; };
+		3BF29BEA4C1FF7360E93882C9D6C2A7C /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DA818B8128A1DD0CA63A4A4A7912C3 /* AlertRow.swift */; };
+		3D199581AB5DD1E207BD686945528EDE /* Pods-Blackout Buddy-Blackout BuddyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0414A3594929C7ABA84DA27B5B49B1A /* Pods-Blackout Buddy-Blackout BuddyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45D64D81FC93E350F19E7A28A8A8FDAC /* NavigationAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B68A7350220F7907C42B6805C6EAD9 /* NavigationAccessoryView.swift */; };
+		4D5CAEA66E12CA438CD7B4FA78BB6186 /* ListCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E8C03720081F45480D0A81CA9E1C3 /* ListCheckRow.swift */; };
+		553F2C40EE9B6C0A1CC57FC2894455CD /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2351973EF4797A3F2910CDEA546D7 /* SelectableRowType.swift */; };
+		56EB318A58A511C6BE4098E8EAD6A7C0 /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C68B961837EDE15B9E5550688D3F76 /* MultipleSelectorRow.swift */; };
+		57DA9857A10221E5D429C48B85BB0010 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44186A334BB6A06B2E0678760CFD191C /* Cell.swift */; };
+		5A02CFF7195D1A7592F777170D8FC6D9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149C932D99618F06B2D69F1A04243F4 /* Protocols.swift */; };
+		5A1A55188705CB82F540F58D2910AB93 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11867D02EDCBD39A376C9578776C2B5A /* Section.swift */; };
+		5A8396B9DDE887F7C397B7EEBC4163AA /* PickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC02C8F5F20F47FD5B2DABC8E3022A8 /* PickerRow.swift */; };
+		5F5515249E1A20C230755D2E8001F3FC /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79640471C80BB94C342ACBDC017384 /* Operators.swift */; };
+		5FA0AFCA94E1291506DC54D03765FA22 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A6CC2D355DD01ABEC48D99E959C7B /* Row.swift */; };
+		61D928089445221BAB80A8DB76A68904 /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C70D69D0C8203DF6DFEEAE36737ED7 /* PopoverSelectorRow.swift */; };
+		624CD096DCC639825FDB7372D5E5FF43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		62E99A538A3363A9013DCCBF519B876F /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B95056D5B6C9B5B99B15A075C7DD31 /* CellType.swift */; };
+		6706FE594A5FC58BE59F7AA454982D93 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF85F8CD931544E5D875CCDD5A629CBD /* SliderRow.swift */; };
+		6D13C3C40D5F2B21B4491B81002F2894 /* RuleEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00695A6D3626EF292005E16C64BCA00C /* RuleEmail.swift */; };
+		7005C904B5F05004C2BC6703E8B14F39 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9919880458BCBB87F7C875328C08E1 /* Validation.swift */; };
+		74EC68DA659219AB56A917312A73EA7D /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD830AE0EB15D762257252ADB32223 /* SelectorViewController.swift */; };
+		7BC3103AC586054FF465FDB0F759D666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7CDE8FB3A24BA483F4D2AFB70D990F70 /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A12C2145D8D9FB5471CCA78A552D772 /* Eureka-dummy.m */; };
+		7EEDCE629FA937973E081443AAEEF514 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		821C23BCC87386E7EDAAF97B3C4F1D5D /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136487499934F8874AC8D05F67EE9756 /* RowType.swift */; };
+		83FD4FD36DCD558D89A649921929CBF8 /* Pods-Blackout Buddy-Blackout BuddyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB7FC0336CDF7A05CCD0AB7F768794C /* Pods-Blackout Buddy-Blackout BuddyUITests-dummy.m */; };
+		8A92D825C03E19810B5393EFDFE4502E /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7841890B8AFF38ABD38CCF59E1AA43 /* MultipleSelectorViewController.swift */; };
+		8AFA10B7F0591080EA6BCBCC9CB34BE1 /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A483100613EC36E2DE09CD880F6FF4 /* GenericMultipleSelectorRow.swift */; };
+		8CDD660210D5A535F6725F30259E629A /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223EF36427A1251C96A1B0D488C417C5 /* PresenterRowType.swift */; };
+		9478EC15AE6A7D1249DAE8928DA58ADB /* Pods-Blackout Buddy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 268064B96E399779815F71F9692C7BF0 /* Pods-Blackout Buddy-dummy.m */; };
+		A02F150A74062D9E29592D3EBD13B777 /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5933DAC3426E9CD6DF6A8CC3F21C6AA2 /* StepperRow.swift */; };
+		A4C99CE4C6D89F2107F6A280A0A85688 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563084904D41F12496C6B5133931653 /* HeaderFooterView.swift */; };
+		A77DA0652E7847FE296224EEB12F7EBD /* RuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DABF2C496A8138064D60200D517AD8 /* RuleLength.swift */; };
+		A872077FACDF9389889FE7E6940AC725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		A91D4F561E5C16644A5D3A389609ACD6 /* DoublePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E179195162D68053711737CC30D89E3 /* DoublePickerRow.swift */; };
+		AAA33D7843F1F33E3F9D6F261AB5C2B3 /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554275B3E3583F25701F9204826425D /* PickerInlineRow.swift */; };
+		AADC2477F0EC2A446D3342DCA1E220C8 /* TriplePickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345E445EBB63A0C18B46E3F8312240B2 /* TriplePickerInputRow.swift */; };
+		AC795F2AEFA1C804BABDB1D4931FAAEB /* RowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4BFB5DBA8C381F7717C1B866CE723C /* RowProtocols.swift */; };
+		AFCEB645D509F679CE8FBCFFEDBB65BC /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4F9526D92FA6E9BDBA753A52648FE1 /* SwitchRow.swift */; };
+		B466D5B2650B7521FBE653FC9B7A793D /* DateInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7860B41E8BF63E99CEFFB220BDC788F /* DateInlineRow.swift */; };
+		B490953386257F2C8E03C1D632AC361E /* OptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D70756620AEE563DFC6FCE9CDD7DE3 /* OptionsRow.swift */; };
+		B6DF9275361EA04A959E38F4133C33B7 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81099E34B42392BAD99AE11BC08B5E81 /* SwipeActions.swift */; };
+		BC386B637C771C98AC35939051352116 /* Pods-Blackout BuddyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4508F49F3491AA8805AC91C4ED446BE8 /* Pods-Blackout BuddyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE93E023215A8B4A05A2AEC8B7FAE170 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA82A59E9FE9408F4AA66988E664728F /* InlineRowType.swift */; };
+		C08713DF3DF904E55D8A3E3775A6F3EB /* TriplePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DCA2E00C1F6BC29353BD371D196F0B /* TriplePickerRow.swift */; };
+		C0F073D21CF9CB5F87F3F21044E98BF0 /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42820D2A47F442927B36EB6564D19E46 /* DateRow.swift */; };
+		C299DDF2CE31D8489EFFD0B9D086F9FE /* SelectableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27E33984D95B282E9BB9409945D211 /* SelectableSection.swift */; };
+		C2E350E71A314C644B3F1EBE7CC46A1C /* Pods-Blackout BuddyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA13120720BF6B9233F7E08B11D1FDB1 /* Pods-Blackout BuddyTests-dummy.m */; };
+		C2F5EF0076B32E28969F73229409F94E /* DatePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BD28E835E3F5A022A87C7B511C42DD /* DatePickerRow.swift */; };
+		C4EB1DE2CCEE60A99EB5AA718DD67105 /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C77822FD3D509C769334D72DAA6ED30D /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5562E6984BB0FDC8358F2737187DC90 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E385339A6D86C720AD6ACFC2420C343 /* Helpers.swift */; };
+		C63B306D3FAA845771A0B1CEB3F0DC16 /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED10983A4EC8CC022510B3CA4D7A64 /* TextAreaRow.swift */; };
+		C74F50DD266F0933B137D16ACD76FB1A /* RuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6F0A8F5A9ADF3FF6A328866A540412 /* RuleURL.swift */; };
+		C831261CF70AECC8AC9DDFDBFC3F7172 /* LabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5752A299D9BF4E788D4CCECD83130CAA /* LabelRow.swift */; };
+		C97BE76AAB5C7242509D8482EBA86AE9 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D0400D6FE607C424EC98FDD8434C1B /* Form.swift */; };
+		CEF27164EA8A8C1BCB66B7A75E287216 /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE2236FECA347C23AF012149AB50C1 /* ActionSheetRow.swift */; };
+		D75CBD8D2B4526B7DE24212AB7B24D20 /* RowControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0C8042E16313FF9B2B8B4C1457D7A /* RowControllerType.swift */; };
+		D7663970356A7FBA65579C1EB951220C /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1B29E2B881072EE8B0E14ED17710F /* SelectorRow.swift */; };
+		D9FAA26AD41D565773823B074F93D909 /* DateFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB78EBF7FA0D177A91AF7DD87046700 /* DateFieldRow.swift */; };
+		DFD06D79C71CCAEFA59D7DFBD706C493 /* DoublePickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B5C1C226E2456655D23F9BD51C16B /* DoublePickerInputRow.swift */; };
+		E0F369B772C5C8F0AF3A1C8BA5674628 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED469796CF40D32F72FF821843B80A4 /* ButtonRow.swift */; };
+		E3E2A605AF119D1F90CE77963E6CFD26 /* SelectorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DF54AE428D2E298AA4AFF8AD64165 /* SelectorAlertController.swift */; };
+		E7DA4EBBBFFF3EB6992CA11B921DD211 /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EBA39CCAF4196EE40FAB2710E59158 /* SegmentedRow.swift */; };
+		E987F386AA63D0DCD22642A475A8EFD7 /* PickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A282719260734689EA604F9BDED2E417 /* PickerInputRow.swift */; };
+		E9AB923FC704B44222C8A5DB4145113A /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9534D45DF9E5ECB64C9B4B446268C3FB /* Core.swift */; };
+		EB9E8E94E8877C33E88295D89CF5D9CC /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09026C2EFD69C02656F467EA76432FB /* RuleEqualsToRow.swift */; };
+		F2279E1339CC1B6326AD6FF389D24F96 /* DateInlineFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E330DB51D224DA710E58B7E23B1A18 /* DateInlineFieldRow.swift */; };
+		F47D1993C006C374C634B04421484A4D /* AlertOptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC29A76E58D74926C5151AFB8F976A4 /* AlertOptionsRow.swift */; };
+		FDA0F86B1D9BF196016C11AD4D817A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		FECC68B085B27878A5C1F2FECC9F088F /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A026E1AEDEEACEBF0912226B56275 /* PushRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97B314190ECCC497E387F17C71BE2219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+		CDBACC6CCFF87F4E7723EDFF40D1FF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B39654B6AA6AEFD8BBF5DA2C221B7D;
+			remoteInfo = "Pods-Blackout Buddy";
+		};
+		E16C6B5C3BEF2650E9F8293D39E747A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00695A6D3626EF292005E16C64BCA00C /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
+		082977F3777A7D434AB35C357B487F83 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Eureka.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C68F8387B014BA8ECE5076DCEA49926 /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
+		0D7841890B8AFF38ABD38CCF59E1AA43 /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
+		114A6CC2D355DD01ABEC48D99E959C7B /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
+		11867D02EDCBD39A376C9578776C2B5A /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
+		136487499934F8874AC8D05F67EE9756 /* RowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowType.swift; path = Source/Core/RowType.swift; sourceTree = "<group>"; };
+		1DCE009EF7CC029CFEC74A923F93E87E /* Pods-Blackout BuddyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Blackout BuddyTests-Info.plist"; sourceTree = "<group>"; };
+		211A5E3592000CE6350AA716A63D94C8 /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
+		223EF36427A1251C96A1B0D488C417C5 /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
+		225031C2696488E6499C2FB32AEE9A6B /* Eureka.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.xcconfig; sourceTree = "<group>"; };
+		22DABF2C496A8138064D60200D517AD8 /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
+		24A483100613EC36E2DE09CD880F6FF4 /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
+		268064B96E399779815F71F9692C7BF0 /* Pods-Blackout Buddy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Blackout Buddy-dummy.m"; sourceTree = "<group>"; };
+		27FE3D7748B588EC47313454CF092AB8 /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
+		2A49A2D94BBAFF4A8AC62FE79043B609 /* Pods-Blackout BuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Blackout BuddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		2BDE2236FECA347C23AF012149AB50C1 /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
+		2DCCFD5DDAB3F9EBF5BFF479507B1FC4 /* Pods-Blackout BuddyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Blackout BuddyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EB2351973EF4797A3F2910CDEA546D7 /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		345E445EBB63A0C18B46E3F8312240B2 /* TriplePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerInputRow.swift; path = Source/Rows/TriplePickerInputRow.swift; sourceTree = "<group>"; };
+		35C300B4C66E833258B8176FB41B166E /* Pods-Blackout Buddy-Blackout BuddyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Blackout Buddy-Blackout BuddyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		36DCA2E00C1F6BC29353BD371D196F0B /* TriplePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerRow.swift; path = Source/Rows/TriplePickerRow.swift; sourceTree = "<group>"; };
+		3BB78EBF7FA0D177A91AF7DD87046700 /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
+		3E6F0A8F5A9ADF3FF6A328866A540412 /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
+		3EC0C8042E16313FF9B2B8B4C1457D7A /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
+		42820D2A47F442927B36EB6564D19E46 /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44186A334BB6A06B2E0678760CFD191C /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
+		4508F49F3491AA8805AC91C4ED446BE8 /* Pods-Blackout BuddyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Blackout BuddyTests-umbrella.h"; sourceTree = "<group>"; };
+		4662ECD0333BE6F05B3A1AE46A12FD65 /* Pods_Blackout_Buddy_Blackout_BuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Blackout_Buddy_Blackout_BuddyUITests.framework; path = "Pods-Blackout Buddy-Blackout BuddyUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46ED10983A4EC8CC022510B3CA4D7A64 /* TextAreaRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAreaRow.swift; path = Source/Rows/TextAreaRow.swift; sourceTree = "<group>"; };
+		479665E65A93D4289856D4B00EFFEF1A /* Pods-Blackout Buddy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Blackout Buddy-frameworks.sh"; sourceTree = "<group>"; };
+		485D0B5BEDB0E7B644C7E8DA6306A107 /* Pods-Blackout Buddy-Blackout BuddyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Blackout Buddy-Blackout BuddyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A0B660635817A458F24C44FF4D281ED /* Pods-Blackout BuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Blackout BuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52138FF7E79D6C07F72ADF682526AADA /* Pods-Blackout Buddy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Blackout Buddy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53CB0AB11C471929E8EF735301A759A1 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Eureka.modulemap; sourceTree = "<group>"; };
+		54472597B211870E76830AD173DD8359 /* Pods_Blackout_BuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Blackout_BuddyTests.framework; path = "Pods-Blackout BuddyTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C70D69D0C8203DF6DFEEAE36737ED7 /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
+		5752A299D9BF4E788D4CCECD83130CAA /* LabelRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRow.swift; path = Source/Rows/LabelRow.swift; sourceTree = "<group>"; };
+		5933DAC3426E9CD6DF6A8CC3F21C6AA2 /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
+		5948A9C107498A3E99B321A83B44BFCA /* RuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRequired.swift; path = Source/Validations/RuleRequired.swift; sourceTree = "<group>"; };
+		5C9919880458BCBB87F7C875328C08E1 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
+		5E179195162D68053711737CC30D89E3 /* DoublePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublePickerRow.swift; path = Source/Rows/DoublePickerRow.swift; sourceTree = "<group>"; };
+		5EAEF52723E48C62B43E0F288F5E5AA4 /* Pods-Blackout Buddy-Blackout BuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Blackout Buddy-Blackout BuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5ED469796CF40D32F72FF821843B80A4 /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
+		6149C932D99618F06B2D69F1A04243F4 /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
+		63E330DB51D224DA710E58B7E23B1A18 /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
+		6667D9B531DAF49E62199F45C7B37CB7 /* Pods-Blackout Buddy-Blackout BuddyUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Blackout Buddy-Blackout BuddyUITests-Info.plist"; sourceTree = "<group>"; };
+		695E39F86FB188515DEEA771C8968DD4 /* Pods-Blackout Buddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Blackout Buddy.release.xcconfig"; sourceTree = "<group>"; };
+		69A935ADDF4D28F085FEB78F5A238E0F /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
+		6CE70DD44E0C9FB9B588E396B0A61E7F /* RuleClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = "<group>"; };
+		7291DA6DCD5E2FD5A6F4A09F1C558F95 /* Pods-Blackout BuddyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Blackout BuddyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77DA818B8128A1DD0CA63A4A4A7912C3 /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
+		7AC02C8F5F20F47FD5B2DABC8E3022A8 /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
+		7AE5E2B193BFEE5E66AE48A33C7E690A /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
+		7E385339A6D86C720AD6ACFC2420C343 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
+		7EE32358D3E6B6759A07BAD787F84A56 /* Pods-Blackout BuddyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Blackout BuddyTests.modulemap"; sourceTree = "<group>"; };
+		81099E34B42392BAD99AE11BC08B5E81 /* SwipeActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActions.swift; path = Source/Core/SwipeActions.swift; sourceTree = "<group>"; };
+		84D70756620AEE563DFC6FCE9CDD7DE3 /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
+		8C7DF54AE428D2E298AA4AFF8AD64165 /* SelectorAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorAlertController.swift; path = Source/Rows/Controllers/SelectorAlertController.swift; sourceTree = "<group>"; };
+		9534D45DF9E5ECB64C9B4B446268C3FB /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
+		99B68A7350220F7907C42B6805C6EAD9 /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
+		9A12C2145D8D9FB5471CCA78A552D772 /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E4BFB5DBA8C381F7717C1B866CE723C /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
+		9FDD830AE0EB15D762257252ADB32223 /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
+		A0B3D039476939E36C5BA4528D99A1FC /* Pods-Blackout Buddy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Blackout Buddy-Info.plist"; sourceTree = "<group>"; };
+		A282719260734689EA604F9BDED2E417 /* PickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInputRow.swift; path = Source/Rows/PickerInputRow.swift; sourceTree = "<group>"; };
+		A554275B3E3583F25701F9204826425D /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
+		A5C68B961837EDE15B9E5550688D3F76 /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
+		A6B51E5DE269A0D4629B167142904D59 /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
+		B0414A3594929C7ABA84DA27B5B49B1A /* Pods-Blackout Buddy-Blackout BuddyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Blackout Buddy-Blackout BuddyUITests-umbrella.h"; sourceTree = "<group>"; };
+		B6BD28E835E3F5A022A87C7B511C42DD /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
+		B941EECC652DA1800AD4D25411796415 /* Pods-Blackout Buddy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Blackout Buddy-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3F135DC8AA6738333A1860D55A8B92D /* Pods-Blackout Buddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Blackout Buddy.debug.xcconfig"; sourceTree = "<group>"; };
+		C5B1B29E2B881072EE8B0E14ED17710F /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
+		C60B5C1C226E2456655D23F9BD51C16B /* DoublePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublePickerInputRow.swift; path = Source/Rows/DoublePickerInputRow.swift; sourceTree = "<group>"; };
+		C77822FD3D509C769334D72DAA6ED30D /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
+		CA4F9526D92FA6E9BDBA753A52648FE1 /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
+		CA79640471C80BB94C342ACBDC017384 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
+		CB0042E4330AB8C60AA8C11CB8EB12D0 /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
+		CF85F8CD931544E5D875CCDD5A629CBD /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
+		D00E8C03720081F45480D0A81CA9E1C3 /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
+		D09026C2EFD69C02656F467EA76432FB /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = "<group>"; };
+		D3FD8B694D76BDB27B4D582B5456ACBE /* Pods_Blackout_Buddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Blackout_Buddy.framework; path = "Pods-Blackout Buddy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41C526F4B20FF9DE80ACF5032DCF818 /* Pods-Blackout Buddy-Blackout BuddyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Blackout Buddy-Blackout BuddyUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D563084904D41F12496C6B5133931653 /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
+		D7D0400D6FE607C424EC98FDD8434C1B /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Source/Core/Form.swift; sourceTree = "<group>"; };
+		DA13120720BF6B9233F7E08B11D1FDB1 /* Pods-Blackout BuddyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Blackout BuddyTests-dummy.m"; sourceTree = "<group>"; };
+		DA82A59E9FE9408F4AA66988E664728F /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
+		E42EC9D8AA5AABB36F469AEEC99952F8 /* Pods-Blackout Buddy-Blackout BuddyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Blackout Buddy-Blackout BuddyUITests.modulemap"; sourceTree = "<group>"; };
+		E4CDBE8F6FA88CCBFD9B67ADEFB8817B /* Pods-Blackout Buddy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Blackout Buddy-umbrella.h"; sourceTree = "<group>"; };
+		E613D3CE6FE2CE41D9A5E91F68E96308 /* Eureka-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Eureka-Info.plist"; sourceTree = "<group>"; };
+		E6B95056D5B6C9B5B99B15A075C7DD31 /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
+		EB27E33984D95B282E9BB9409945D211 /* SelectableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableSection.swift; path = Source/Core/SelectableSection.swift; sourceTree = "<group>"; };
+		ED7B73E491A113416A8EBDA3FA0F770D /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
+		EDC29A76E58D74926C5151AFB8F976A4 /* AlertOptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertOptionsRow.swift; path = Source/Rows/Common/AlertOptionsRow.swift; sourceTree = "<group>"; };
+		EFB7FC0336CDF7A05CCD0AB7F768794C /* Pods-Blackout Buddy-Blackout BuddyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Blackout Buddy-Blackout BuddyUITests-dummy.m"; sourceTree = "<group>"; };
+		F420220C3C52137E7F4EA38FB8F8B4CA /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
+		F683589F79CE5BEF92E0B762D1D23E25 /* Pods-Blackout Buddy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Blackout Buddy.modulemap"; sourceTree = "<group>"; };
+		F6EBA39CCAF4196EE40FAB2710E59158 /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
+		F7860B41E8BF63E99CEFFB220BDC788F /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
+		F833DC05D20E04E2F9D7317AA1E43317 /* Pods-Blackout Buddy-Blackout BuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Blackout Buddy-Blackout BuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC2A026E1AEDEEACEBF0912226B56275 /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAF5C35F5B2283FBA924E263ED77071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC3103AC586054FF465FDB0F759D666 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE209130C28C466814F72226C44A91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA0F86B1D9BF196016C11AD4D817A4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75230F1E7AF82F2650B0238BE514AA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A872077FACDF9389889FE7E6940AC725 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C739679CAE74D90F140F5EDC0EE4EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624CD096DCC639825FDB7372D5E5FF43 /* Foundation.framework in Frameworks */,
+				7EEDCE629FA937973E081443AAEEF514 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E498C66BB9180E9D2C5D62B42EF153E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93A990FD2E2461B7D6C22B0713E6889B /* Eureka */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		659C000C0EE45BD86CB0B5449244EEBC /* Pods-Blackout Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				F683589F79CE5BEF92E0B762D1D23E25 /* Pods-Blackout Buddy.modulemap */,
+				52138FF7E79D6C07F72ADF682526AADA /* Pods-Blackout Buddy-acknowledgements.markdown */,
+				B941EECC652DA1800AD4D25411796415 /* Pods-Blackout Buddy-acknowledgements.plist */,
+				268064B96E399779815F71F9692C7BF0 /* Pods-Blackout Buddy-dummy.m */,
+				479665E65A93D4289856D4B00EFFEF1A /* Pods-Blackout Buddy-frameworks.sh */,
+				A0B3D039476939E36C5BA4528D99A1FC /* Pods-Blackout Buddy-Info.plist */,
+				E4CDBE8F6FA88CCBFD9B67ADEFB8817B /* Pods-Blackout Buddy-umbrella.h */,
+				C3F135DC8AA6738333A1860D55A8B92D /* Pods-Blackout Buddy.debug.xcconfig */,
+				695E39F86FB188515DEEA771C8968DD4 /* Pods-Blackout Buddy.release.xcconfig */,
+			);
+			name = "Pods-Blackout Buddy";
+			path = "Target Support Files/Pods-Blackout Buddy";
+			sourceTree = "<group>";
+		};
+		66B05F67897B69B7396D452964A17ACA /* Pods-Blackout Buddy-Blackout BuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E42EC9D8AA5AABB36F469AEEC99952F8 /* Pods-Blackout Buddy-Blackout BuddyUITests.modulemap */,
+				485D0B5BEDB0E7B644C7E8DA6306A107 /* Pods-Blackout Buddy-Blackout BuddyUITests-acknowledgements.markdown */,
+				35C300B4C66E833258B8176FB41B166E /* Pods-Blackout Buddy-Blackout BuddyUITests-acknowledgements.plist */,
+				EFB7FC0336CDF7A05CCD0AB7F768794C /* Pods-Blackout Buddy-Blackout BuddyUITests-dummy.m */,
+				D41C526F4B20FF9DE80ACF5032DCF818 /* Pods-Blackout Buddy-Blackout BuddyUITests-frameworks.sh */,
+				6667D9B531DAF49E62199F45C7B37CB7 /* Pods-Blackout Buddy-Blackout BuddyUITests-Info.plist */,
+				B0414A3594929C7ABA84DA27B5B49B1A /* Pods-Blackout Buddy-Blackout BuddyUITests-umbrella.h */,
+				F833DC05D20E04E2F9D7317AA1E43317 /* Pods-Blackout Buddy-Blackout BuddyUITests.debug.xcconfig */,
+				5EAEF52723E48C62B43E0F288F5E5AA4 /* Pods-Blackout Buddy-Blackout BuddyUITests.release.xcconfig */,
+			);
+			name = "Pods-Blackout Buddy-Blackout BuddyUITests";
+			path = "Target Support Files/Pods-Blackout Buddy-Blackout BuddyUITests";
+			sourceTree = "<group>";
+		};
+		801744D43D7DA09B96DA301F5D40263B /* Pods-Blackout BuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EE32358D3E6B6759A07BAD787F84A56 /* Pods-Blackout BuddyTests.modulemap */,
+				7291DA6DCD5E2FD5A6F4A09F1C558F95 /* Pods-Blackout BuddyTests-acknowledgements.markdown */,
+				2DCCFD5DDAB3F9EBF5BFF479507B1FC4 /* Pods-Blackout BuddyTests-acknowledgements.plist */,
+				DA13120720BF6B9233F7E08B11D1FDB1 /* Pods-Blackout BuddyTests-dummy.m */,
+				1DCE009EF7CC029CFEC74A923F93E87E /* Pods-Blackout BuddyTests-Info.plist */,
+				4508F49F3491AA8805AC91C4ED446BE8 /* Pods-Blackout BuddyTests-umbrella.h */,
+				4A0B660635817A458F24C44FF4D281ED /* Pods-Blackout BuddyTests.debug.xcconfig */,
+				2A49A2D94BBAFF4A8AC62FE79043B609 /* Pods-Blackout BuddyTests.release.xcconfig */,
+			);
+			name = "Pods-Blackout BuddyTests";
+			path = "Target Support Files/Pods-Blackout BuddyTests";
+			sourceTree = "<group>";
+		};
+		93A990FD2E2461B7D6C22B0713E6889B /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				2BDE2236FECA347C23AF012149AB50C1 /* ActionSheetRow.swift */,
+				EDC29A76E58D74926C5151AFB8F976A4 /* AlertOptionsRow.swift */,
+				77DA818B8128A1DD0CA63A4A4A7912C3 /* AlertRow.swift */,
+				7AE5E2B193BFEE5E66AE48A33C7E690A /* BaseRow.swift */,
+				5ED469796CF40D32F72FF821843B80A4 /* ButtonRow.swift */,
+				211A5E3592000CE6350AA716A63D94C8 /* ButtonRowWithPresent.swift */,
+				44186A334BB6A06B2E0678760CFD191C /* Cell.swift */,
+				E6B95056D5B6C9B5B99B15A075C7DD31 /* CellType.swift */,
+				27FE3D7748B588EC47313454CF092AB8 /* CheckRow.swift */,
+				9534D45DF9E5ECB64C9B4B446268C3FB /* Core.swift */,
+				3BB78EBF7FA0D177A91AF7DD87046700 /* DateFieldRow.swift */,
+				63E330DB51D224DA710E58B7E23B1A18 /* DateInlineFieldRow.swift */,
+				F7860B41E8BF63E99CEFFB220BDC788F /* DateInlineRow.swift */,
+				B6BD28E835E3F5A022A87C7B511C42DD /* DatePickerRow.swift */,
+				42820D2A47F442927B36EB6564D19E46 /* DateRow.swift */,
+				69A935ADDF4D28F085FEB78F5A238E0F /* DecimalFormatter.swift */,
+				C60B5C1C226E2456655D23F9BD51C16B /* DoublePickerInputRow.swift */,
+				5E179195162D68053711737CC30D89E3 /* DoublePickerRow.swift */,
+				ED7B73E491A113416A8EBDA3FA0F770D /* FieldRow.swift */,
+				F420220C3C52137E7F4EA38FB8F8B4CA /* FieldsRow.swift */,
+				D7D0400D6FE607C424EC98FDD8434C1B /* Form.swift */,
+				24A483100613EC36E2DE09CD880F6FF4 /* GenericMultipleSelectorRow.swift */,
+				D563084904D41F12496C6B5133931653 /* HeaderFooterView.swift */,
+				7E385339A6D86C720AD6ACFC2420C343 /* Helpers.swift */,
+				DA82A59E9FE9408F4AA66988E664728F /* InlineRowType.swift */,
+				5752A299D9BF4E788D4CCECD83130CAA /* LabelRow.swift */,
+				D00E8C03720081F45480D0A81CA9E1C3 /* ListCheckRow.swift */,
+				A5C68B961837EDE15B9E5550688D3F76 /* MultipleSelectorRow.swift */,
+				0D7841890B8AFF38ABD38CCF59E1AA43 /* MultipleSelectorViewController.swift */,
+				99B68A7350220F7907C42B6805C6EAD9 /* NavigationAccessoryView.swift */,
+				CA79640471C80BB94C342ACBDC017384 /* Operators.swift */,
+				84D70756620AEE563DFC6FCE9CDD7DE3 /* OptionsRow.swift */,
+				A554275B3E3583F25701F9204826425D /* PickerInlineRow.swift */,
+				A282719260734689EA604F9BDED2E417 /* PickerInputRow.swift */,
+				7AC02C8F5F20F47FD5B2DABC8E3022A8 /* PickerRow.swift */,
+				55C70D69D0C8203DF6DFEEAE36737ED7 /* PopoverSelectorRow.swift */,
+				223EF36427A1251C96A1B0D488C417C5 /* PresenterRowType.swift */,
+				6149C932D99618F06B2D69F1A04243F4 /* Protocols.swift */,
+				FC2A026E1AEDEEACEBF0912226B56275 /* PushRow.swift */,
+				114A6CC2D355DD01ABEC48D99E959C7B /* Row.swift */,
+				3EC0C8042E16313FF9B2B8B4C1457D7A /* RowControllerType.swift */,
+				9E4BFB5DBA8C381F7717C1B866CE723C /* RowProtocols.swift */,
+				136487499934F8874AC8D05F67EE9756 /* RowType.swift */,
+				6CE70DD44E0C9FB9B588E396B0A61E7F /* RuleClosure.swift */,
+				00695A6D3626EF292005E16C64BCA00C /* RuleEmail.swift */,
+				D09026C2EFD69C02656F467EA76432FB /* RuleEqualsToRow.swift */,
+				22DABF2C496A8138064D60200D517AD8 /* RuleLength.swift */,
+				A6B51E5DE269A0D4629B167142904D59 /* RuleRange.swift */,
+				CB0042E4330AB8C60AA8C11CB8EB12D0 /* RuleRegExp.swift */,
+				5948A9C107498A3E99B321A83B44BFCA /* RuleRequired.swift */,
+				3E6F0A8F5A9ADF3FF6A328866A540412 /* RuleURL.swift */,
+				11867D02EDCBD39A376C9578776C2B5A /* Section.swift */,
+				F6EBA39CCAF4196EE40FAB2710E59158 /* SegmentedRow.swift */,
+				2EB2351973EF4797A3F2910CDEA546D7 /* SelectableRowType.swift */,
+				EB27E33984D95B282E9BB9409945D211 /* SelectableSection.swift */,
+				8C7DF54AE428D2E298AA4AFF8AD64165 /* SelectorAlertController.swift */,
+				C5B1B29E2B881072EE8B0E14ED17710F /* SelectorRow.swift */,
+				9FDD830AE0EB15D762257252ADB32223 /* SelectorViewController.swift */,
+				CF85F8CD931544E5D875CCDD5A629CBD /* SliderRow.swift */,
+				5933DAC3426E9CD6DF6A8CC3F21C6AA2 /* StepperRow.swift */,
+				81099E34B42392BAD99AE11BC08B5E81 /* SwipeActions.swift */,
+				CA4F9526D92FA6E9BDBA753A52648FE1 /* SwitchRow.swift */,
+				46ED10983A4EC8CC022510B3CA4D7A64 /* TextAreaRow.swift */,
+				345E445EBB63A0C18B46E3F8312240B2 /* TriplePickerInputRow.swift */,
+				36DCA2E00C1F6BC29353BD371D196F0B /* TriplePickerRow.swift */,
+				5C9919880458BCBB87F7C875328C08E1 /* Validation.swift */,
+				A6A8785BEA627F37582B55D195468AA1 /* Support Files */,
+			);
+			name = Eureka;
+			path = Eureka;
+			sourceTree = "<group>";
+		};
+		A6A8785BEA627F37582B55D195468AA1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53CB0AB11C471929E8EF735301A759A1 /* Eureka.modulemap */,
+				225031C2696488E6499C2FB32AEE9A6B /* Eureka.xcconfig */,
+				9A12C2145D8D9FB5471CCA78A552D772 /* Eureka-dummy.m */,
+				E613D3CE6FE2CE41D9A5E91F68E96308 /* Eureka-Info.plist */,
+				0C68F8387B014BA8ECE5076DCEA49926 /* Eureka-prefix.pch */,
+				C77822FD3D509C769334D72DAA6ED30D /* Eureka-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Eureka";
+			sourceTree = "<group>";
+		};
+		B314274F12FC31A995962BFBF97136DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				082977F3777A7D434AB35C357B487F83 /* Eureka.framework */,
+				D3FD8B694D76BDB27B4D582B5456ACBE /* Pods_Blackout_Buddy.framework */,
+				4662ECD0333BE6F05B3A1AE46A12FD65 /* Pods_Blackout_Buddy_Blackout_BuddyUITests.framework */,
+				54472597B211870E76830AD173DD8359 /* Pods_Blackout_BuddyTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				0E498C66BB9180E9D2C5D62B42EF153E /* Pods */,
+				B314274F12FC31A995962BFBF97136DA /* Products */,
+				D4E1C5A72109793ECAD34FCD668B3E0B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E1C5A72109793ECAD34FCD668B3E0B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				659C000C0EE45BD86CB0B5449244EEBC /* Pods-Blackout Buddy */,
+				66B05F67897B69B7396D452964A17ACA /* Pods-Blackout Buddy-Blackout BuddyUITests */,
+				801744D43D7DA09B96DA301F5D40263B /* Pods-Blackout BuddyTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6FF9321F500910CDD79755CC588D0598 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC386B637C771C98AC35939051352116 /* Pods-Blackout BuddyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD3157FBDD386B4916158C875050C47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EB1DE2CCEE60A99EB5AA718DD67105 /* Eureka-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87456BEC50F0374D205C8466D0E7A624 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2129DDD8E49F482CC5EDC01B7020462B /* Pods-Blackout Buddy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5660878741F59F406A5DBA48F17272C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D199581AB5DD1E207BD686945528EDE /* Pods-Blackout Buddy-Blackout BuddyUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18B39654B6AA6AEFD8BBF5DA2C221B7D /* Pods-Blackout Buddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6862860A1A71BC43FB98C73E40E07C6F /* Build configuration list for PBXNativeTarget "Pods-Blackout Buddy" */;
+			buildPhases = (
+				87456BEC50F0374D205C8466D0E7A624 /* Headers */,
+				FFAD498F971AAA305FA5D73D4EC37AD5 /* Sources */,
+				6CE209130C28C466814F72226C44A91A /* Frameworks */,
+				D42CCD0ADC1625C1BD0AC2837D0DA45C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87243D0F519459174CE6515FD7F3AFC6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Blackout Buddy";
+			productName = "Pods-Blackout Buddy";
+			productReference = D3FD8B694D76BDB27B4D582B5456ACBE /* Pods_Blackout_Buddy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2DABAB544A0D91173C1244F2756B0C8C /* Pods-Blackout Buddy-Blackout BuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5341B50AB0227076525E76599023BD0B /* Build configuration list for PBXNativeTarget "Pods-Blackout Buddy-Blackout BuddyUITests" */;
+			buildPhases = (
+				F5660878741F59F406A5DBA48F17272C /* Headers */,
+				B48C0CB9C901F84822CB3D27888EC8D5 /* Sources */,
+				75230F1E7AF82F2650B0238BE514AA1C /* Frameworks */,
+				A85F1F59C53D6B4DEF65CA19FBDFF3C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E7B2F5709C6D37483FDF2BAB3E612A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Blackout Buddy-Blackout BuddyUITests";
+			productName = "Pods-Blackout Buddy-Blackout BuddyUITests";
+			productReference = 4662ECD0333BE6F05B3A1AE46A12FD65 /* Pods_Blackout_Buddy_Blackout_BuddyUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D9568865509547DEC4319ACE66D6A34 /* Pods-Blackout BuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013762F16C320A425193BBD970647253 /* Build configuration list for PBXNativeTarget "Pods-Blackout BuddyTests" */;
+			buildPhases = (
+				6FF9321F500910CDD79755CC588D0598 /* Headers */,
+				F40DB32063DE01057DE85B61FD928240 /* Sources */,
+				3CAF5C35F5B2283FBA924E263ED77071 /* Frameworks */,
+				CD50A6A759A955CCD80B6F1E5C699E12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36AEF34DEC8C949CDF60FD15F20F964C /* PBXTargetDependency */,
+			);
+			name = "Pods-Blackout BuddyTests";
+			productName = "Pods-Blackout BuddyTests";
+			productReference = 54472597B211870E76830AD173DD8359 /* Pods_Blackout_BuddyTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36778B42AB96755AAFA8AF892C40E50E /* Build configuration list for PBXNativeTarget "Eureka" */;
+			buildPhases = (
+				7DD3157FBDD386B4916158C875050C47 /* Headers */,
+				112A449208BD77617F656312EA4943E8 /* Sources */,
+				7C739679CAE74D90F140F5EDC0EE4EC0 /* Frameworks */,
+				C6AFE590176E3A846DAE473492B8ADE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eureka;
+			productName = Eureka;
+			productReference = 082977F3777A7D434AB35C357B487F83 /* Eureka.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B314274F12FC31A995962BFBF97136DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */,
+				18B39654B6AA6AEFD8BBF5DA2C221B7D /* Pods-Blackout Buddy */,
+				2DABAB544A0D91173C1244F2756B0C8C /* Pods-Blackout Buddy-Blackout BuddyUITests */,
+				3D9568865509547DEC4319ACE66D6A34 /* Pods-Blackout BuddyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A85F1F59C53D6B4DEF65CA19FBDFF3C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AFE590176E3A846DAE473492B8ADE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD50A6A759A955CCD80B6F1E5C699E12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42CCD0ADC1625C1BD0AC2837D0DA45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		112A449208BD77617F656312EA4943E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF27164EA8A8C1BCB66B7A75E287216 /* ActionSheetRow.swift in Sources */,
+				F47D1993C006C374C634B04421484A4D /* AlertOptionsRow.swift in Sources */,
+				3BF29BEA4C1FF7360E93882C9D6C2A7C /* AlertRow.swift in Sources */,
+				1BB933C505E10805A9E179E3DD2CA17E /* BaseRow.swift in Sources */,
+				E0F369B772C5C8F0AF3A1C8BA5674628 /* ButtonRow.swift in Sources */,
+				01E1380B9DAEF7517AD42713A8CB716E /* ButtonRowWithPresent.swift in Sources */,
+				57DA9857A10221E5D429C48B85BB0010 /* Cell.swift in Sources */,
+				62E99A538A3363A9013DCCBF519B876F /* CellType.swift in Sources */,
+				119C3D64BDFECAB92F4FFCEF9B4F135D /* CheckRow.swift in Sources */,
+				E9AB923FC704B44222C8A5DB4145113A /* Core.swift in Sources */,
+				D9FAA26AD41D565773823B074F93D909 /* DateFieldRow.swift in Sources */,
+				F2279E1339CC1B6326AD6FF389D24F96 /* DateInlineFieldRow.swift in Sources */,
+				B466D5B2650B7521FBE653FC9B7A793D /* DateInlineRow.swift in Sources */,
+				C2F5EF0076B32E28969F73229409F94E /* DatePickerRow.swift in Sources */,
+				C0F073D21CF9CB5F87F3F21044E98BF0 /* DateRow.swift in Sources */,
+				0D7339D0D404F9C394637DDFE383A7A8 /* DecimalFormatter.swift in Sources */,
+				DFD06D79C71CCAEFA59D7DFBD706C493 /* DoublePickerInputRow.swift in Sources */,
+				A91D4F561E5C16644A5D3A389609ACD6 /* DoublePickerRow.swift in Sources */,
+				7CDE8FB3A24BA483F4D2AFB70D990F70 /* Eureka-dummy.m in Sources */,
+				27A3F7981DF0B5CFCB2E56AABBEAA319 /* FieldRow.swift in Sources */,
+				052CDA13B29437A2FDCD9D19230AD39F /* FieldsRow.swift in Sources */,
+				C97BE76AAB5C7242509D8482EBA86AE9 /* Form.swift in Sources */,
+				8AFA10B7F0591080EA6BCBCC9CB34BE1 /* GenericMultipleSelectorRow.swift in Sources */,
+				A4C99CE4C6D89F2107F6A280A0A85688 /* HeaderFooterView.swift in Sources */,
+				C5562E6984BB0FDC8358F2737187DC90 /* Helpers.swift in Sources */,
+				BE93E023215A8B4A05A2AEC8B7FAE170 /* InlineRowType.swift in Sources */,
+				C831261CF70AECC8AC9DDFDBFC3F7172 /* LabelRow.swift in Sources */,
+				4D5CAEA66E12CA438CD7B4FA78BB6186 /* ListCheckRow.swift in Sources */,
+				56EB318A58A511C6BE4098E8EAD6A7C0 /* MultipleSelectorRow.swift in Sources */,
+				8A92D825C03E19810B5393EFDFE4502E /* MultipleSelectorViewController.swift in Sources */,
+				45D64D81FC93E350F19E7A28A8A8FDAC /* NavigationAccessoryView.swift in Sources */,
+				5F5515249E1A20C230755D2E8001F3FC /* Operators.swift in Sources */,
+				B490953386257F2C8E03C1D632AC361E /* OptionsRow.swift in Sources */,
+				AAA33D7843F1F33E3F9D6F261AB5C2B3 /* PickerInlineRow.swift in Sources */,
+				E987F386AA63D0DCD22642A475A8EFD7 /* PickerInputRow.swift in Sources */,
+				5A8396B9DDE887F7C397B7EEBC4163AA /* PickerRow.swift in Sources */,
+				61D928089445221BAB80A8DB76A68904 /* PopoverSelectorRow.swift in Sources */,
+				8CDD660210D5A535F6725F30259E629A /* PresenterRowType.swift in Sources */,
+				5A02CFF7195D1A7592F777170D8FC6D9 /* Protocols.swift in Sources */,
+				FECC68B085B27878A5C1F2FECC9F088F /* PushRow.swift in Sources */,
+				5FA0AFCA94E1291506DC54D03765FA22 /* Row.swift in Sources */,
+				D75CBD8D2B4526B7DE24212AB7B24D20 /* RowControllerType.swift in Sources */,
+				AC795F2AEFA1C804BABDB1D4931FAAEB /* RowProtocols.swift in Sources */,
+				821C23BCC87386E7EDAAF97B3C4F1D5D /* RowType.swift in Sources */,
+				2E5AD5FC9F45A7F38F5F5BC6FF7570E9 /* RuleClosure.swift in Sources */,
+				6D13C3C40D5F2B21B4491B81002F2894 /* RuleEmail.swift in Sources */,
+				EB9E8E94E8877C33E88295D89CF5D9CC /* RuleEqualsToRow.swift in Sources */,
+				A77DA0652E7847FE296224EEB12F7EBD /* RuleLength.swift in Sources */,
+				07572F1826C958646848D4EF5DBF377E /* RuleRange.swift in Sources */,
+				2D144E1543B0B44E364EFEC4E6CFE8D5 /* RuleRegExp.swift in Sources */,
+				05C88AAB95E98E3296996797706F19AF /* RuleRequired.swift in Sources */,
+				C74F50DD266F0933B137D16ACD76FB1A /* RuleURL.swift in Sources */,
+				5A1A55188705CB82F540F58D2910AB93 /* Section.swift in Sources */,
+				E7DA4EBBBFFF3EB6992CA11B921DD211 /* SegmentedRow.swift in Sources */,
+				553F2C40EE9B6C0A1CC57FC2894455CD /* SelectableRowType.swift in Sources */,
+				C299DDF2CE31D8489EFFD0B9D086F9FE /* SelectableSection.swift in Sources */,
+				E3E2A605AF119D1F90CE77963E6CFD26 /* SelectorAlertController.swift in Sources */,
+				D7663970356A7FBA65579C1EB951220C /* SelectorRow.swift in Sources */,
+				74EC68DA659219AB56A917312A73EA7D /* SelectorViewController.swift in Sources */,
+				6706FE594A5FC58BE59F7AA454982D93 /* SliderRow.swift in Sources */,
+				A02F150A74062D9E29592D3EBD13B777 /* StepperRow.swift in Sources */,
+				B6DF9275361EA04A959E38F4133C33B7 /* SwipeActions.swift in Sources */,
+				AFCEB645D509F679CE8FBCFFEDBB65BC /* SwitchRow.swift in Sources */,
+				C63B306D3FAA845771A0B1CEB3F0DC16 /* TextAreaRow.swift in Sources */,
+				AADC2477F0EC2A446D3342DCA1E220C8 /* TriplePickerInputRow.swift in Sources */,
+				C08713DF3DF904E55D8A3E3775A6F3EB /* TriplePickerRow.swift in Sources */,
+				7005C904B5F05004C2BC6703E8B14F39 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48C0CB9C901F84822CB3D27888EC8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD4FD36DCD558D89A649921929CBF8 /* Pods-Blackout Buddy-Blackout BuddyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40DB32063DE01057DE85B61FD928240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E350E71A314C644B3F1EBE7CC46A1C /* Pods-Blackout BuddyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAD498F971AAA305FA5D73D4EC37AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9478EC15AE6A7D1249DAE8928DA58ADB /* Pods-Blackout Buddy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E7B2F5709C6D37483FDF2BAB3E612A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = E16C6B5C3BEF2650E9F8293D39E747A5 /* PBXContainerItemProxy */;
+		};
+		36AEF34DEC8C949CDF60FD15F20F964C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Blackout Buddy";
+			target = 18B39654B6AA6AEFD8BBF5DA2C221B7D /* Pods-Blackout Buddy */;
+			targetProxy = CDBACC6CCFF87F4E7723EDFF40D1FF4C /* PBXContainerItemProxy */;
+		};
+		87243D0F519459174CE6515FD7F3AFC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = 97B314190ECCC497E387F17C71BE2219 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		15162EFCD2CDDB2F8CAD4F9CDA195AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A49A2D94BBAFF4A8AC62FE79043B609 /* Pods-Blackout BuddyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Blackout BuddyTests/Pods-Blackout BuddyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Blackout BuddyTests/Pods-Blackout BuddyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32F1505C1EA8075EF142DF8014220C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225031C2696488E6499C2FB32AEE9A6B /* Eureka.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Eureka-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				PRODUCT_MODULE_NAME = Eureka;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3738BD4F2F93810410569C988B27AA7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 695E39F86FB188515DEEA771C8968DD4 /* Pods-Blackout Buddy.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Blackout Buddy/Pods-Blackout Buddy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Blackout Buddy/Pods-Blackout Buddy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		516BAA1DBA231CDD5601605966E50812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F135DC8AA6738333A1860D55A8B92D /* Pods-Blackout Buddy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Blackout Buddy/Pods-Blackout Buddy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Blackout Buddy/Pods-Blackout Buddy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78F5F46530EDF352FF1570EC1C8E6511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A0B660635817A458F24C44FF4D281ED /* Pods-Blackout BuddyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Blackout BuddyTests/Pods-Blackout BuddyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Blackout BuddyTests/Pods-Blackout BuddyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7FF6B07D614D7C3358DAB2D848C9B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225031C2696488E6499C2FB32AEE9A6B /* Eureka.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Eureka-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				PRODUCT_MODULE_NAME = Eureka;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5688AC4A3C7669C5E7C166A0C1FD316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EAEF52723E48C62B43E0F288F5E5AA4 /* Pods-Blackout Buddy-Blackout BuddyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Blackout Buddy-Blackout BuddyUITests/Pods-Blackout Buddy-Blackout BuddyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Blackout Buddy-Blackout BuddyUITests/Pods-Blackout Buddy-Blackout BuddyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F1D9962695B95DB8BADFCF5FD88E6DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F833DC05D20E04E2F9D7317AA1E43317 /* Pods-Blackout Buddy-Blackout BuddyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Blackout Buddy-Blackout BuddyUITests/Pods-Blackout Buddy-Blackout BuddyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Blackout Buddy-Blackout BuddyUITests/Pods-Blackout Buddy-Blackout BuddyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013762F16C320A425193BBD970647253 /* Build configuration list for PBXNativeTarget "Pods-Blackout BuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F5F46530EDF352FF1570EC1C8E6511 /* Debug */,
+				15162EFCD2CDDB2F8CAD4F9CDA195AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36778B42AB96755AAFA8AF892C40E50E /* Build configuration list for PBXNativeTarget "Eureka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F1505C1EA8075EF142DF8014220C81 /* Debug */,
+				B7FF6B07D614D7C3358DAB2D848C9B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5341B50AB0227076525E76599023BD0B /* Build configuration list for PBXNativeTarget "Pods-Blackout Buddy-Blackout BuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D9962695B95DB8BADFCF5FD88E6DA0 /* Debug */,
+				C5688AC4A3C7669C5E7C166A0C1FD316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6862860A1A71BC43FB98C73E40E07C6F /* Build configuration list for PBXNativeTarget "Pods-Blackout Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516BAA1DBA231CDD5601605966E50812 /* Debug */,
+				3738BD4F2F93810410569C988B27AA7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
