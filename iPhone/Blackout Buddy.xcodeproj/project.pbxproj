@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,7 @@
 		B0F0A73623E53878005A30F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A73523E53878005A30F4 /* AppDelegate.swift */; };
 		B0F0A73823E53878005A30F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A73723E53878005A30F4 /* SceneDelegate.swift */; };
 		B0F0A73A23E53878005A30F4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A73923E53878005A30F4 /* FirstViewController.swift */; };
-		B0F0A73C23E53878005A30F4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A73B23E53878005A30F4 /* SecondViewController.swift */; };
+		B0F0A73C23E53878005A30F4 /* PreGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A73B23E53878005A30F4 /* PreGameController.swift */; };
 		B0F0A73F23E53878005A30F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F0A73D23E53878005A30F4 /* Main.storyboard */; };
 		B0F0A74123E53879005A30F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F0A74023E53879005A30F4 /* Assets.xcassets */; };
 		B0F0A74423E53879005A30F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F0A74223E53879005A30F4 /* LaunchScreen.storyboard */; };
@@ -53,7 +53,7 @@
 		B0F0A73523E53878005A30F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0F0A73723E53878005A30F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B0F0A73923E53878005A30F4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B0F0A73B23E53878005A30F4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B0F0A73B23E53878005A30F4 /* PreGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGameController.swift; sourceTree = "<group>"; };
 		B0F0A73E23E53878005A30F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0F0A74023E53879005A30F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0F0A74323E53879005A30F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				B0F0A73923E53878005A30F4 /* FirstViewController.swift */,
-				B0F0A73B23E53878005A30F4 /* SecondViewController.swift */,
+				B0F0A73B23E53878005A30F4 /* PreGameController.swift */,
 				B0B695C623E5BBE000AA7064 /* ThirdViewController.swift */,
 				B0B695C823E5BC4600AA7064 /* FourthViewController.swift */,
 			);
@@ -142,7 +142,6 @@
 				A4FEA314B2BE40234BAA7966 /* Pods-Blackout BuddyTests.debug.xcconfig */,
 				D581BAFB66A74EF820D6403B /* Pods-Blackout BuddyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -442,7 +441,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0B695C923E5BC4600AA7064 /* FourthViewController.swift in Sources */,
-				B0F0A73C23E53878005A30F4 /* SecondViewController.swift in Sources */,
+				B0F0A73C23E53878005A30F4 /* PreGameController.swift in Sources */,
 				B0F0A73A23E53878005A30F4 /* FirstViewController.swift in Sources */,
 				B0B695C723E5BBE000AA7064 /* ThirdViewController.swift in Sources */,
 				B0F0A73623E53878005A30F4 /* AppDelegate.swift in Sources */,

@@ -6,7 +6,8 @@ target 'Blackout Buddy' do
   use_frameworks!
 
   # Pods for Blackout Buddy
-  pod 'Eureka'  
+  pod 'Eureka'
+  pod 'SplitRow'
 
 
   target 'Blackout BuddyTests' do

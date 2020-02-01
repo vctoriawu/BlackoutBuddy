@@ -1,16 +1,21 @@
 PODS:
   - Eureka (5.2.0)
+  - SplitRow (2.1.1):
+    - Eureka (~> 5.1)
 
 DEPENDENCIES:
   - Eureka
+  - SplitRow
 
 SPEC REPOS:
   trunk:
     - Eureka
+    - SplitRow
 
 SPEC CHECKSUMS:
   Eureka: 820a761c700f6eaab3b60758f138e0d9b99072b3
+  SplitRow: 921e76fbbd7ef50d005131d6665a6e10f26df04b
 
-PODFILE CHECKSUM: 09bdd072413f8c45051d25ab9b9302a3ec575414
+PODFILE CHECKSUM: 67a603ea459d2fa397d80a72464e80c99479cea1
 
 COCOAPODS: 1.8.4
