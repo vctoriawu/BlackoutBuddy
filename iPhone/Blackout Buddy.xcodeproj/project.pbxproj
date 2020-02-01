@@ -82,6 +82,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69CF150523E5C41B00D44F8A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0F0A73923E53878005A30F4 /* FirstViewController.swift */,
+				B0F0A73B23E53878005A30F4 /* SecondViewController.swift */,
+				B0B695C623E5BBE000AA7064 /* ThirdViewController.swift */,
+				B0B695C823E5BC4600AA7064 /* FourthViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		69CF150623E5C66900D44F8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		69CF150723E5C67300D44F8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B0F0A72923E53878005A30F4 = {
 			isa = PBXGroup;
 			children = (
@@ -105,13 +130,12 @@
 		B0F0A73423E53878005A30F4 /* Blackout Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				69CF150723E5C67300D44F8A /* Model */,
+				69CF150623E5C66900D44F8A /* View */,
+				69CF150523E5C41B00D44F8A /* Controller */,
 				B0F0A73523E53878005A30F4 /* AppDelegate.swift */,
 				B0F0A73723E53878005A30F4 /* SceneDelegate.swift */,
-				B0F0A73923E53878005A30F4 /* FirstViewController.swift */,
-				B0F0A73B23E53878005A30F4 /* SecondViewController.swift */,
 				B0F0A73D23E53878005A30F4 /* Main.storyboard */,
-				B0B695C623E5BBE000AA7064 /* ThirdViewController.swift */,
-				B0B695C823E5BC4600AA7064 /* FourthViewController.swift */,
 				B0F0A74023E53879005A30F4 /* Assets.xcassets */,
 				B0F0A74223E53879005A30F4 /* LaunchScreen.storyboard */,
 				B0F0A74523E53879005A30F4 /* Info.plist */,
@@ -201,7 +225,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Victoria Armstrong";
+				ORGANIZATIONNAME = CornBenders;
 				TargetAttributes = {
 					B0F0A73123E53878005A30F4 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -447,7 +471,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y59VP35PTM;
 				INFOPLIST_FILE = "Blackout Buddy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,7 +490,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y59VP35PTM;
 				INFOPLIST_FILE = "Blackout Buddy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
