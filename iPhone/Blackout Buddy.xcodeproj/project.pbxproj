@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -142,7 +142,6 @@
 				A4FEA314B2BE40234BAA7966 /* Pods-Blackout BuddyTests.debug.xcconfig */,
 				D581BAFB66A74EF820D6403B /* Pods-Blackout BuddyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -621,7 +620,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y59VP35PTM;
+				DEVELOPMENT_TEAM = 89ZW33UKFX;
 				INFOPLIST_FILE = "Blackout Buddy/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -641,7 +640,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y59VP35PTM;
+				DEVELOPMENT_TEAM = 89ZW33UKFX;
 				INFOPLIST_FILE = "Blackout Buddy/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
