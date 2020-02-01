@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0B695C723E5BBE000AA7064 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B695C623E5BBE000AA7064 /* ThirdViewController.swift */; };
+		B0B695C923E5BC4600AA7064 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B695C823E5BC4600AA7064 /* FourthViewController.swift */; };
+		B0F0A73623E53878005A30F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A73523E53878005A30F4 /* AppDelegate.swift */; };
+		B0F0A73823E53878005A30F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A73723E53878005A30F4 /* SceneDelegate.swift */; };
+		B0F0A73A23E53878005A30F4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A73923E53878005A30F4 /* FirstViewController.swift */; };
+		B0F0A73C23E53878005A30F4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A73B23E53878005A30F4 /* SecondViewController.swift */; };
+		B0F0A73F23E53878005A30F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F0A73D23E53878005A30F4 /* Main.storyboard */; };
+		B0F0A74123E53879005A30F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F0A74023E53879005A30F4 /* Assets.xcassets */; };
+		B0F0A74423E53879005A30F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F0A74223E53879005A30F4 /* LaunchScreen.storyboard */; };
+		B0F0A74F23E53879005A30F4 /* Blackout_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A74E23E53879005A30F4 /* Blackout_BuddyTests.swift */; };
+		B0F0A75A23E53879005A30F4 /* Blackout_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0A75923E53879005A30F4 /* Blackout_BuddyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0F0A74B23E53879005A30F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0F0A72A23E53878005A30F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0F0A73123E53878005A30F4;
+			remoteInfo = "Blackout Buddy";
+		};
+		B0F0A75623E53879005A30F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0F0A72A23E53878005A30F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0F0A73123E53878005A30F4;
+			remoteInfo = "Blackout Buddy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0B695C623E5BBE000AA7064 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		B0B695C823E5BC4600AA7064 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		B0F0A73223E53878005A30F4 /* Blackout Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blackout Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F0A73523E53878005A30F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0F0A73723E53878005A30F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B0F0A73923E53878005A30F4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B0F0A73B23E53878005A30F4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B0F0A73E23E53878005A30F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0F0A74023E53879005A30F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0F0A74323E53879005A30F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0F0A74523E53879005A30F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F0A74A23E53879005A30F4 /* Blackout BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blackout BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F0A74E23E53879005A30F4 /* Blackout_BuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blackout_BuddyTests.swift; sourceTree = "<group>"; };
+		B0F0A75023E53879005A30F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F0A75523E53879005A30F4 /* Blackout BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blackout BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F0A75923E53879005A30F4 /* Blackout_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blackout_BuddyUITests.swift; sourceTree = "<group>"; };
+		B0F0A75B23E53879005A30F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0F0A72F23E53878005A30F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F0A74723E53879005A30F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F0A75223E53879005A30F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0F0A72923E53878005A30F4 = {
+			isa = PBXGroup;
+			children = (
+				B0F0A73423E53878005A30F4 /* Blackout Buddy */,
+				B0F0A74D23E53879005A30F4 /* Blackout BuddyTests */,
+				B0F0A75823E53879005A30F4 /* Blackout BuddyUITests */,
+				B0F0A73323E53878005A30F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0F0A73323E53878005A30F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0F0A73223E53878005A30F4 /* Blackout Buddy.app */,
+				B0F0A74A23E53879005A30F4 /* Blackout BuddyTests.xctest */,
+				B0F0A75523E53879005A30F4 /* Blackout BuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0F0A73423E53878005A30F4 /* Blackout Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				B0F0A73523E53878005A30F4 /* AppDelegate.swift */,
+				B0F0A73723E53878005A30F4 /* SceneDelegate.swift */,
+				B0F0A73923E53878005A30F4 /* FirstViewController.swift */,
+				B0F0A73B23E53878005A30F4 /* SecondViewController.swift */,
+				B0F0A73D23E53878005A30F4 /* Main.storyboard */,
+				B0B695C623E5BBE000AA7064 /* ThirdViewController.swift */,
+				B0B695C823E5BC4600AA7064 /* FourthViewController.swift */,
+				B0F0A74023E53879005A30F4 /* Assets.xcassets */,
+				B0F0A74223E53879005A30F4 /* LaunchScreen.storyboard */,
+				B0F0A74523E53879005A30F4 /* Info.plist */,
+			);
+			path = "Blackout Buddy";
+			sourceTree = "<group>";
+		};
+		B0F0A74D23E53879005A30F4 /* Blackout BuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0F0A74E23E53879005A30F4 /* Blackout_BuddyTests.swift */,
+				B0F0A75023E53879005A30F4 /* Info.plist */,
+			);
+			path = "Blackout BuddyTests";
+			sourceTree = "<group>";
+		};
+		B0F0A75823E53879005A30F4 /* Blackout BuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0F0A75923E53879005A30F4 /* Blackout_BuddyUITests.swift */,
+				B0F0A75B23E53879005A30F4 /* Info.plist */,
+			);
+			path = "Blackout BuddyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0F0A73123E53878005A30F4 /* Blackout Buddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F0A75E23E53879005A30F4 /* Build configuration list for PBXNativeTarget "Blackout Buddy" */;
+			buildPhases = (
+				B0F0A72E23E53878005A30F4 /* Sources */,
+				B0F0A72F23E53878005A30F4 /* Frameworks */,
+				B0F0A73023E53878005A30F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blackout Buddy";
+			productName = "Blackout Buddy";
+			productReference = B0F0A73223E53878005A30F4 /* Blackout Buddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0F0A74923E53879005A30F4 /* Blackout BuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F0A76123E53879005A30F4 /* Build configuration list for PBXNativeTarget "Blackout BuddyTests" */;
+			buildPhases = (
+				B0F0A74623E53879005A30F4 /* Sources */,
+				B0F0A74723E53879005A30F4 /* Frameworks */,
+				B0F0A74823E53879005A30F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0F0A74C23E53879005A30F4 /* PBXTargetDependency */,
+			);
+			name = "Blackout BuddyTests";
+			productName = "Blackout BuddyTests";
+			productReference = B0F0A74A23E53879005A30F4 /* Blackout BuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0F0A75423E53879005A30F4 /* Blackout BuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F0A76423E53879005A30F4 /* Build configuration list for PBXNativeTarget "Blackout BuddyUITests" */;
+			buildPhases = (
+				B0F0A75123E53879005A30F4 /* Sources */,
+				B0F0A75223E53879005A30F4 /* Frameworks */,
+				B0F0A75323E53879005A30F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0F0A75723E53879005A30F4 /* PBXTargetDependency */,
+			);
+			name = "Blackout BuddyUITests";
+			productName = "Blackout BuddyUITests";
+			productReference = B0F0A75523E53879005A30F4 /* Blackout BuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0F0A72A23E53878005A30F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Victoria Armstrong";
+				TargetAttributes = {
+					B0F0A73123E53878005A30F4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B0F0A74923E53879005A30F4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B0F0A73123E53878005A30F4;
+					};
+					B0F0A75423E53879005A30F4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B0F0A73123E53878005A30F4;
+					};
+				};
+			};
+			buildConfigurationList = B0F0A72D23E53878005A30F4 /* Build configuration list for PBXProject "Blackout Buddy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0F0A72923E53878005A30F4;
+			productRefGroup = B0F0A73323E53878005A30F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0F0A73123E53878005A30F4 /* Blackout Buddy */,
+				B0F0A74923E53879005A30F4 /* Blackout BuddyTests */,
+				B0F0A75423E53879005A30F4 /* Blackout BuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0F0A73023E53878005A30F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F0A74423E53879005A30F4 /* LaunchScreen.storyboard in Resources */,
+				B0F0A74123E53879005A30F4 /* Assets.xcassets in Resources */,
+				B0F0A73F23E53878005A30F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F0A74823E53879005A30F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F0A75323E53879005A30F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0F0A72E23E53878005A30F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B695C923E5BC4600AA7064 /* FourthViewController.swift in Sources */,
+				B0F0A73C23E53878005A30F4 /* SecondViewController.swift in Sources */,
+				B0F0A73A23E53878005A30F4 /* FirstViewController.swift in Sources */,
+				B0B695C723E5BBE000AA7064 /* ThirdViewController.swift in Sources */,
+				B0F0A73623E53878005A30F4 /* AppDelegate.swift in Sources */,
+				B0F0A73823E53878005A30F4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F0A74623E53879005A30F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F0A74F23E53879005A30F4 /* Blackout_BuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F0A75123E53879005A30F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F0A75A23E53879005A30F4 /* Blackout_BuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0F0A74C23E53879005A30F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0F0A73123E53878005A30F4 /* Blackout Buddy */;
+			targetProxy = B0F0A74B23E53879005A30F4 /* PBXContainerItemProxy */;
+		};
+		B0F0A75723E53879005A30F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0F0A73123E53878005A30F4 /* Blackout Buddy */;
+			targetProxy = B0F0A75623E53879005A30F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0F0A73D23E53878005A30F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0F0A73E23E53878005A30F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0F0A74223E53879005A30F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0F0A74323E53879005A30F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0F0A75C23E53879005A30F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0F0A75D23E53879005A30F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0F0A75F23E53879005A30F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blackout Buddy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackoutbuddy.Blackout-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0F0A76023E53879005A30F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blackout Buddy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackoutbuddy.Blackout-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0F0A76223E53879005A30F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blackout BuddyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackoutbuddy.Blackout-BuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blackout Buddy.app/Blackout Buddy";
+			};
+			name = Debug;
+		};
+		B0F0A76323E53879005A30F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blackout BuddyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackoutbuddy.Blackout-BuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blackout Buddy.app/Blackout Buddy";
+			};
+			name = Release;
+		};
+		B0F0A76523E53879005A30F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blackout BuddyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackoutbuddy.Blackout-BuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blackout Buddy";
+			};
+			name = Debug;
+		};
+		B0F0A76623E53879005A30F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blackout BuddyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackoutbuddy.Blackout-BuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blackout Buddy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0F0A72D23E53878005A30F4 /* Build configuration list for PBXProject "Blackout Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F0A75C23E53879005A30F4 /* Debug */,
+				B0F0A75D23E53879005A30F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F0A75E23E53879005A30F4 /* Build configuration list for PBXNativeTarget "Blackout Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F0A75F23E53879005A30F4 /* Debug */,
+				B0F0A76023E53879005A30F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F0A76123E53879005A30F4 /* Build configuration list for PBXNativeTarget "Blackout BuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F0A76223E53879005A30F4 /* Debug */,
+				B0F0A76323E53879005A30F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F0A76423E53879005A30F4 /* Build configuration list for PBXNativeTarget "Blackout BuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F0A76523E53879005A30F4 /* Debug */,
+				B0F0A76623E53879005A30F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0F0A72A23E53878005A30F4 /* Project object */;
+}
