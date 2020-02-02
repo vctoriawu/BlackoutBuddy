@@ -10,11 +10,35 @@ import UIKit
 
 class FourthViewController: UIViewController {
 
+    @IBOutlet weak var goodToDriveButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        goodToDriveButton.layer.cornerRadius = 5
 
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func goodToDriveButtonPressed(_ sender: Any) {
+        // Create the alert controller
+        let alertController = UIAlertController(title: "No, you're not good to drive", message: "Order an Uber or something Dummy", preferredStyle: .alert)
+        
+        // Create the actions
+        let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {
+            UIAlertAction in
+            NSLog("OK Pressed")
+    }
+        let cancelAction = UIAlertAction(title: "OK but in red", style: UIAlertAction.Style.destructive) {
+            UIAlertAction in
+            NSLog("Cancel Pressed")
+        }
+        // Add the actions
+        alertController.addAction(okAction)
+        alertController.addAction(cancelAction)
+        // Present the controller
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
     
 
     /*

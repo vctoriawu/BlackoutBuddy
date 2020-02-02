@@ -101,19 +101,36 @@
         <!--Fourth-->
         <scene sceneID="gas-ym-V51">
             <objects>
-                <viewController title="Fourth" id="Clb-3F-M9R" sceneMemberID="viewController">
+                <viewController title="Fourth" id="Clb-3F-M9R" customClass="FourthViewController" customModule="Blackout_Buddy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F9I-ay-PnJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ClG-sc-X9o">
+                                <rect key="frame" x="29" y="424" width="356" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="28"/>
+                                <state key="normal" title="Am I good to drive?">
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goodToDriveButtonPressed:" destination="Clb-3F-M9R" eventType="touchUpInside" id="t8E-9K-7B5"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="5zI-s7-Pwo"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Fourth" id="Dt9-Im-QAm"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="goodToDriveButton" destination="ClG-sc-X9o" id="nhp-0X-6eG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0jj-y0-Fqd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2369" y="327"/>
+            <point key="canvasLocation" x="2471.0144927536235" y="529.6875"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
