@@ -8,6 +8,7 @@ target 'Blackout Buddy' do
   # Pods for Blackout Buddy
   pod 'Eureka'
   pod 'SplitRow'
+  pod 'RevealingSplashView'
 
 
   target 'Blackout BuddyTests' do

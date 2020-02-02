@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4D135DD810228B835B9A22F1 /* Pods_Blackout_Buddy_Blackout_BuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E971EF628F9EF256A56AE73 /* Pods_Blackout_Buddy_Blackout_BuddyUITests.framework */; };
+		691519E323E643A500D71F0A /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691519E223E643A500D71F0A /* ContactCell.swift */; };
+		691519E523E644FB00D71F0A /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691519E423E644FB00D71F0A /* ContactRow.swift */; };
 		9BDF0C06591CDD78A34030D8 /* Pods_Blackout_BuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231E2B3B4AF149A9AB918464 /* Pods_Blackout_BuddyTests.framework */; };
 		B0B695C723E5BBE000AA7064 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B695C623E5BBE000AA7064 /* ThirdViewController.swift */; };
 		B0B695C923E5BC4600AA7064 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B695C823E5BC4600AA7064 /* FourthViewController.swift */; };
@@ -44,6 +46,8 @@
 		231E2B3B4AF149A9AB918464 /* Pods_Blackout_BuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blackout_BuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCB3F3E8A9A278037C1333D /* Pods-Blackout Buddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blackout Buddy.release.xcconfig"; path = "Target Support Files/Pods-Blackout Buddy/Pods-Blackout Buddy.release.xcconfig"; sourceTree = "<group>"; };
 		5D4608E9A88AB22865292B27 /* Pods-Blackout Buddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blackout Buddy.debug.xcconfig"; path = "Target Support Files/Pods-Blackout Buddy/Pods-Blackout Buddy.debug.xcconfig"; sourceTree = "<group>"; };
+		691519E223E643A500D71F0A /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		691519E423E644FB00D71F0A /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 		6EF3F8D78BEB6A423A96E1B8 /* Pods_Blackout_Buddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blackout_Buddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E971EF628F9EF256A56AE73 /* Pods_Blackout_Buddy_Blackout_BuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blackout_Buddy_Blackout_BuddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FEA314B2BE40234BAA7966 /* Pods-Blackout BuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blackout BuddyTests.debug.xcconfig"; path = "Target Support Files/Pods-Blackout BuddyTests/Pods-Blackout BuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +109,15 @@
 				231E2B3B4AF149A9AB918464 /* Pods_Blackout_BuddyTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		691519E123E6439100D71F0A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				691519E223E643A500D71F0A /* ContactCell.swift */,
+				691519E423E644FB00D71F0A /* ContactRow.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		69CF150523E5C41B00D44F8A /* Controller */ = {
@@ -170,6 +183,7 @@
 		B0F0A73423E53878005A30F4 /* Blackout Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				691519E123E6439100D71F0A /* Helper */,
 				69CF150723E5C67300D44F8A /* Model */,
 				69CF150623E5C66900D44F8A /* View */,
 				69CF150523E5C41B00D44F8A /* Controller */,
@@ -445,7 +459,9 @@
 				B0F0A73A23E53878005A30F4 /* FirstViewController.swift in Sources */,
 				B0B695C723E5BBE000AA7064 /* ThirdViewController.swift in Sources */,
 				B0F0A73623E53878005A30F4 /* AppDelegate.swift in Sources */,
+				691519E323E643A500D71F0A /* ContactCell.swift in Sources */,
 				B0F0A73823E53878005A30F4 /* SceneDelegate.swift in Sources */,
+				691519E523E644FB00D71F0A /* ContactRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

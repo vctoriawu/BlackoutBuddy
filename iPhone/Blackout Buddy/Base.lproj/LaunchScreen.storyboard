@@ -14,13 +14,28 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pink Cocktail Bar Logo-1024" translatesAutoresizingMaskIntoConstraints="NO" id="OdC-Tg-vUZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.26897308833352107" green="0.83004478192745679" blue="0.1585891836140641" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OdC-Tg-vUZ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="4ja-GL-fI3"/>
+                            <constraint firstItem="OdC-Tg-vUZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gGX-Rr-PGg"/>
+                            <constraint firstItem="OdC-Tg-vUZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rKF-We-FS8"/>
+                            <constraint firstItem="OdC-Tg-vUZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xFe-qL-WOF"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Pink Cocktail Bar Logo-1024" width="512" height="512"/>
+    </resources>
 </document>

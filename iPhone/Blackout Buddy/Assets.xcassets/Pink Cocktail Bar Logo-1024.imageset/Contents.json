@@ -2,15 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Pink Cocktail Bar Logo-1024.png",
+      "filename" : "Pink Cocktail Bar Logo-1026.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Pink Cocktail Bar Logo-1025.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Pink Cocktail Bar Logo-1024.png",
       "scale" : "3x"
     }
   ],

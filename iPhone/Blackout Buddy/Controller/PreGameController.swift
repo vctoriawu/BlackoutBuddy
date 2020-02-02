@@ -10,8 +10,11 @@
 import UIKit
 import Eureka
 import SplitRow
+import ContactsUI
 
-class PreGameController: FormViewController {
+class PreGameController: FormViewController, CNContactPickerDelegate {
+    
+    var name = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +54,7 @@ class PreGameController: FormViewController {
             }
             $0.multivaluedRowToInsertAt = { index in
                 return SplitRow<TextRow, TimeRow>() {
-                    $0.rowLeftPercentage = 0.5
+                    $0.rowLeftPercentage = 0.75
 
                     $0.rowLeft = TextRow(){
                         $0.placeholder = "Title"
@@ -75,5 +78,65 @@ class PreGameController: FormViewController {
                 }
             }
         }
+            
+        
+            
+        +++ MultivaluedSection(multivaluedOptions: [.Insert, .Delete], header: "Drunk Texting") {
+            $0.tag = "drunk"
+        
+            $0.addButtonProvider = { section in
+                return ButtonRow(){
+                    $0.title = "Add new Contact"
+                }
+            }
+//            $0.multivaluedRowToInsertAt = { index in
+//
+//                return ButtonRow(){
+//
+//                    $0.title = "Select Contact"
+//                    $0.onCellSelection(self.buttonTapped(cell:row:))
+//                }
+//            }
+            $0.multivaluedRowToInsertAt = { index in
+                
+                return ContactRow(){
+                    
+                    $0.title = "Select Contact"
+                    
+                }
+            }
+        }
+            
+            
+        
+//        +++ Section("Drunk Texting")
+//            <<< ButtonRow(){
+//                $0.title = "Add New Tag"
+//                $0.onCellSelection(self.buttonTapped(cell:row:))
+//        }
     }
+    
+    func buttonTapped(cell: ButtonCellOf<String>, row: ButtonRow) {
+        let contacVC = CNContactPickerViewController()
+        contacVC.delegate = self
+        self.present(contacVC, animated: true, completion: nil)
+
+    }
+    
+      // MARK: Delegate method CNContectPickerDelegate
+    func contactPicker(_ picker: CNContactPickerViewController, didSelect contact: CNContact) {
+        print(contact)
+        self.name = contact.givenName + " " + contact.familyName
+        print(self.name)
+        
+        
+        print(contact.phoneNumbers)
+        let numbers = contact.phoneNumbers.first
+        print((numbers?.value)?.stringValue ?? "")
+    }
+
+    func contactPickerDidCancel(_ picker: CNContactPickerViewController) {
+        self.dismiss(animated: true, completion: nil)
+    }
+
 }
