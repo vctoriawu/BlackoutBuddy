@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cbd440b-0b07-4aee-933a-388631a88fdc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/iPhone/Blackout Buddy/Assets.xcassets/car-side.imageset/car-side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPhone/Blackout Buddy/Assets.xcassets/compass-point-7.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPhone/Blackout Buddy/Assets.xcassets/compass-point-7.imageset/compass-point-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPhone/Blackout Buddy/Assets.xcassets/drink-toast.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPhone/Blackout Buddy/Assets.xcassets/drink-toast.imageset/drink-toast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPhone/Blackout Buddy/Assets.xcassets/file-list-tick-7.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPhone/Blackout Buddy/Assets.xcassets/file-list-tick-7.imageset/file-list-tick-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPhone/Blackout Buddy/Assets.xcassets/twitterLogo.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/iPhone/Blackout Buddy/Assets.xcassets/car-side.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPhone/Blackout Buddy/Assets.xcassets/twitterLogo.imageset/twitterLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPhone/Blackout Buddy/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/iPhone/Blackout Buddy/Base.lproj/Main.storyboard" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XEaDL0U3NDeoc577ViwaXT4MPh" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cbd440b-0b07-4aee-933a-388631a88fdc" name="Default Changelist" comment="" />
+      <created>1580613586612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580613586612</updated>
+      <workItem from="1580613589244" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
