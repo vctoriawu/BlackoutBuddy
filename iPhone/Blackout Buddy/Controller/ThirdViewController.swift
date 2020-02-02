@@ -56,7 +56,12 @@ class ThirdViewController: UIViewController {
           // Fallback on earlier versions
        }
        locationManager.startUpdatingLocation()
-        return locationManager.location!.coordinate
+        do{
+            return try locationManager.location!.coordinate
+        } catch {
+            return CLLocationCoordinate2D()
+        }
+        
     }
     
     

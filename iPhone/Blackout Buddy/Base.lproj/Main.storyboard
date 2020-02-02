@@ -91,6 +91,7 @@
                         <viewLayoutGuide key="safeArea" id="8Ak-gV-anP"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="compass-point-7" id="Gw1-TF-S0v"/>
+                    <navigationItem key="navigationItem" id="tDw-td-iCw"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="MapView" destination="hNz-9n-21g" id="0oW-O4-JOR"/>

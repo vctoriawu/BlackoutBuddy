@@ -11,9 +11,11 @@ import UIKit
 import Eureka
 import SplitRow
 import ContactsUI
+import EventKit
+
 
 class PreGameController: FormViewController, CNContactPickerDelegate {
-    
+    let eventStore = EKEventStore()
     var name = ""
     
     override func viewDidLoad() {
@@ -46,6 +48,7 @@ class PreGameController: FormViewController, CNContactPickerDelegate {
             }
             
         +++ MultivaluedSection(multivaluedOptions: [.Insert, .Delete], header: "Reminders") {
+            $0.tag = "Reminders"
         
             $0.addButtonProvider = { section in
                 return ButtonRow(){
@@ -106,6 +109,13 @@ class PreGameController: FormViewController, CNContactPickerDelegate {
                 }
             }
         }
+                
+        +++ Section() <<< ButtonRow() { (row: ButtonRow) -> Void in
+           row.title = "Let's Go"
+           row.onCellSelection(self.submitForm(cell:row:))
+        }
+        
+        
             
             
         
@@ -123,10 +133,89 @@ class PreGameController: FormViewController, CNContactPickerDelegate {
 
     }
     
+    func submitForm(cell: ButtonCellOf<String>, row: ButtonRow) {
+        tabBarController?.selectedIndex = 2
+        let formvalues = self.form.values()
+        let reminders = formvalues["Reminders"]!! as! [Any?]
+//        print(reminders[0]!)
+        let data = reminders[0]! as? SplitRowValue<String,Date>
+        let title =  data?.left
+        let date = data!.right
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd' 'HH:mm:ss Z"
+        
+        let formattedDate = dateFormatter.string(from: date!)
+        print(formattedDate)
+        
+        var calendar = Calendar.current
+
+        if let timeZone = TimeZone(identifier: "EST") {
+           calendar.timeZone = timeZone
+        }
+
+        let hour = calendar.component(.hour, from: date!)
+        let minute = calendar.component(.minute, from: date!)
+
+        print("\(hour):\(minute)")
+
+        
+
+        
+    eventStore.requestAccess(to: EKEntityType.reminder, completion: {
+    granted, error in
+    if (granted) && (error == nil) {
+        print("granted \(granted)")
+
+
+        let reminder:EKReminder = EKReminder(eventStore: self.eventStore)
+        reminder.title = title
+        reminder.priority = 2
+
+        let date = Date()
+        var dateComponents = Calendar.current.dateComponents([.month, .year, .day, .hour, .minute, .second], from: date)
+        dateComponents.hour = hour
+        dateComponents.minute = minute
+        let convertedDateTime = Calendar.current.date(from: dateComponents)
+
+        let alarmTime = date
+        
+        let alarm = EKAlarm(absoluteDate: convertedDateTime!)
+      reminder.addAlarm(alarm)
+
+      reminder.calendar = self.eventStore.defaultCalendarForNewReminders()
+
+
+      do {
+        try self.eventStore.save(reminder, commit: true)
+      } catch {
+        print("Cannot save")
+        return
+      }
+      print("Reminder saved")
+      }
+     })
+
+        let reminder:EKReminder = EKReminder(eventStore: self.eventStore)
+        reminder.title = "Must do this!"
+        reminder.priority = 2
+
+        //  How to show completed
+        //reminder.completionDate = Date()
+
+        reminder.notes = "...this is a note"
+
+
+        let alarmTime = Date().addingTimeInterval(1*60*24*3)
+        let alarm = EKAlarm(absoluteDate: alarmTime)
+        reminder.addAlarm(alarm)
+    }
+
+    
       // MARK: Delegate method CNContectPickerDelegate
     func contactPicker(_ picker: CNContactPickerViewController, didSelect contact: CNContact) {
         print(contact)
         self.name = contact.givenName + " " + contact.familyName
+        
         print(self.name)
         
         
