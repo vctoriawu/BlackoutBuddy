@@ -55,9 +55,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hNz-9n-21g">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hNz-9n-21g">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="760"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJD-1G-61b">
                                 <rect key="frame" x="316" y="777" width="0.0" height="0.0"/>
@@ -66,17 +65,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XuL-ad-dA9">
-                                <rect key="frame" x="153" y="768" width="109" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XuL-ad-dA9">
+                                <rect key="frame" x="167" y="777" width="80" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <state key="normal" title="DROP ITEM"/>
+                                <state key="normal" title="DROP ITEM">
+                                    <color key="titleColor" red="0.27854514120000001" green="0.83698481319999996" blue="0.1681652367" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonWasPressed:" destination="5NS-6e-GYu" eventType="touchUpInside" id="gb6-fj-Fh9"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XuL-ad-dA9" firstAttribute="top" secondItem="hNz-9n-21g" secondAttribute="bottom" constant="17" id="BuF-8y-sAR"/>
+                            <constraint firstItem="hNz-9n-21g" firstAttribute="leading" secondItem="8Ak-gV-anP" secondAttribute="leading" id="Gxt-Bm-2lv"/>
+                            <constraint firstItem="8Ak-gV-anP" firstAttribute="bottom" secondItem="XuL-ad-dA9" secondAttribute="bottom" constant="6" id="aHw-Kf-gbP"/>
+                            <constraint firstItem="hNz-9n-21g" firstAttribute="top" secondItem="rFQ-zb-vWj" secondAttribute="top" id="cZE-e0-ByS"/>
+                            <constraint firstItem="hNz-9n-21g" firstAttribute="trailing" secondItem="8Ak-gV-anP" secondAttribute="trailing" id="e0C-QX-geb"/>
+                            <constraint firstItem="XuL-ad-dA9" firstAttribute="centerX" secondItem="rFQ-zb-vWj" secondAttribute="centerX" id="eGD-zz-rjw"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="8Ak-gV-anP"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Third" id="Gw1-TF-S0v"/>
