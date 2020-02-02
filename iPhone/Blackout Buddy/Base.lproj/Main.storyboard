@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Home-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Blackout_Buddy" customModuleProvider="target" sceneMemberID="viewController">
@@ -15,10 +15,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="VXJ-lh-Kpd">
-                                <rect key="frame" x="78" y="346" width="258" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="26"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="VXJ-lh-Kpd">
+                                <rect key="frame" x="33" y="94" width="348" height="58"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="38"/>
                                 <state key="normal" title="BLACKOUT BUDDY">
                                     <color key="titleColor" red="0.50197106680000003" green="0.96699744460000003" blue="0.56707036700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -36,9 +35,13 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VXJ-lh-Kpd" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="Lek-AY-2Dg"/>
+                            <constraint firstItem="VXJ-lh-Kpd" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="50" id="oUR-Pr-aaH"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="drink-toast" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="lfg" destination="A5M-7J-77L" id="d39-bd-OQo"/>
                     </connections>
@@ -87,7 +90,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8Ak-gV-anP"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Third" id="Gw1-TF-S0v"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="compass-point-7" id="Gw1-TF-S0v"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="MapView" destination="hNz-9n-21g" id="0oW-O4-JOR"/>
@@ -122,7 +125,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="5zI-s7-Pwo"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Fourth" id="Dt9-Im-QAm"/>
+                    <tabBarItem key="tabBarItem" title="Drive?" image="car-side" id="Dt9-Im-QAm"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="goodToDriveButton" destination="ClG-sc-X9o" id="nhp-0X-6eG"/>
@@ -132,7 +135,7 @@
             </objects>
             <point key="canvasLocation" x="2471.0144927536235" y="529.6875"/>
         </scene>
-        <!--Second-->
+        <!--Pre-Game-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="PreGameController" customModule="Blackout_Buddy" customModuleProvider="target" sceneMemberID="viewController">
@@ -161,7 +164,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Pre-Game" image="file-list-tick-7" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -191,7 +194,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="car-side" width="30" height="30"/>
+        <image name="compass-point-7" width="30" height="30"/>
+        <image name="drink-toast" width="30" height="30"/>
+        <image name="file-list-tick-7" width="30" height="30"/>
     </resources>
 </document>
