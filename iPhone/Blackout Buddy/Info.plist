@@ -4,6 +4,10 @@
 <dict>
 	<key>NSContactsUsageDescription</key>
 	<string>$(PRODUCT_NAME) contact use</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need to know where you are bro</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need to know where you are</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

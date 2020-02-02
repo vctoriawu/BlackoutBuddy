@@ -50,19 +50,45 @@
         <!--Third-->
         <scene sceneID="cGZ-Ts-sKe">
             <objects>
-                <viewController title="Third" id="5NS-6e-GYu" sceneMemberID="viewController">
+                <viewController title="Third" id="5NS-6e-GYu" customClass="ThirdViewController" customModule="Blackout_Buddy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rFQ-zb-vWj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hNz-9n-21g">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="760"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJD-1G-61b">
+                                <rect key="frame" x="316" y="777" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XuL-ad-dA9">
+                                <rect key="frame" x="153" y="768" width="109" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <state key="normal" title="DROP ITEM"/>
+                                <connections>
+                                    <action selector="buttonWasPressed:" destination="5NS-6e-GYu" eventType="touchUpInside" id="gb6-fj-Fh9"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="8Ak-gV-anP"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Third" id="Gw1-TF-S0v"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="MapView" destination="hNz-9n-21g" id="0oW-O4-JOR"/>
+                        <outlet property="dropItemButton" destination="XuL-ad-dA9" id="oio-f1-TWG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xmb-ot-fxU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1701" y="11"/>
+            <point key="canvasLocation" x="1700.0000000000002" y="10.714285714285714"/>
         </scene>
         <!--Fourth-->
         <scene sceneID="gas-ym-V51">
